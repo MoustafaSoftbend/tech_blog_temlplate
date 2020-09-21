@@ -114,7 +114,9 @@ a {
   height: 20em;
   overflow: hidden;
   text-align: center;
-  border-bottom: #ccc 1px solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  /* border-bottom: #ccc 1px solid; */
 }
 
 .card-img,
@@ -137,6 +139,8 @@ a {
   width: 100%;
   text-align: left;
   display: block;
+  padding: 1rem;
+  font-weight: 600;
 }
 
 .post-title {
@@ -166,7 +170,7 @@ a {
   left: 0; */
   height: 60px;
   width: 100%;
-  border-top: #ccc 1px solid;
+  /* border-top: #ccc 1px solid; */
 }
 .author-card-img,
 .author-post-img {
@@ -273,13 +277,13 @@ a {
   padding-left: 5rem; */
 }
 
-.side-right {
+/* .side-right {
   border-right: 2px #ccc solid;
 }
 
 .side-left {
   border-left: 2px #ccc solid;
-}
+} */
 
 .main-content {
   flex: 2.4;
@@ -455,6 +459,15 @@ a {
 #featured .main-post .card-body {
   top: 60%;
 }
+/* 
+#featured .card {
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#featured .card-footer {
+  border: none;
+} */
 
 #featured .main-post .card-title {
   top: 50%;
@@ -1206,9 +1219,6 @@ a {
   margin-left: 60px;
 }
 
-#post-page .card {
-  border-bottom: none;
-}
 #post-page .card span {
   text-align: left;
   padding-bottom: 1rem;
@@ -1281,7 +1291,7 @@ a {
 }
 
 #post-page .card {
-  margin: 0 6rem;
+  margin: 2rem 6rem;
   width: 60%;
 }
 
@@ -1459,6 +1469,4 @@ a {
 #post-page .subcomment {
   width: 80%;
   margin: 0 auto;
-}
-#post-page .subcomment .comment-text {
 }
