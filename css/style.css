@@ -1066,7 +1066,7 @@ a {
     right: 10px;
     left: 0;
     right: 0;
-    bottom: 30px;
+    bottom: 0px;
   }
   #featured .card-footer {
     position: absolute;
@@ -1078,6 +1078,7 @@ a {
   #featured .card-footer .author-card-img {
     position: absolute;
     left: 50px;
+    top: 35px;
   }
   /* #featured .card-footer .author-card-img::after {
     position: absolute;
@@ -1090,7 +1091,7 @@ a {
   #featured .card-footer .author-card-name {
     position: absolute;
     padding: 0.3rem 0 0.5rem 0.5rem;
-    top: 16px;
+    top: 46px;
     left: 130px;
     border-left: 4px solid red;
   }
@@ -1099,13 +1100,13 @@ a {
     padding: 0.8rem;
     font-size: 0.5rem;
     left: 150px;
-    top: 23px;
+    top: 55px;
   }
   #featured .card-title {
     position: absolute;
     text-align: left;
     padding: 2rem;
-    top: 65px;
+    top: 95px;
   }
 
   #latest {
@@ -1186,10 +1187,10 @@ a {
   #topics {
     padding: 0;
   }
-
+  /* 
   #topics .main-topic .topic-img-first {
     height: 10%;
-  }
+  } */
   #topics .side-topics {
     padding: 0.5rem;
   }
