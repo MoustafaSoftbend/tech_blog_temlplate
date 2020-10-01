@@ -5,6 +5,7 @@ let imagesLength;
 const nav_btn = document.querySelector("a.navigation");
 const navbar = document.querySelector("#navbar");
 let halt = false;
+let recordedPageId;
 // let index = 1;
 let recordIndex = 0;
 
@@ -19,6 +20,7 @@ window.addEventListener("DOMContentLoaded", (e) => {
 
   slide.addEventListener("mouseenter", function (e) {
     console.log("Halt");
+    recordedPageId = e;
     halt = true;
   });
   slide.addEventListener("mouseleave", function (e) {
