@@ -1123,6 +1123,9 @@ a.category {
   #navbar ul li {
     margin-right: 0;
   }
+  #post-page .post-page-content {
+    padding: 0;
+  }
   #post-page .page-container .post-page {
     padding: 0;
   }
@@ -1384,6 +1387,9 @@ a.category {
 @media (max-width: 550px) {
   #featured {
     padding: 0;
+  }
+  #featured .main-content {
+    margin: 0;
   }
   #featured .card {
     position: relative;
