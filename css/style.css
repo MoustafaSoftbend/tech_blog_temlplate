@@ -1385,8 +1385,15 @@ a.category {
 }
 
 @media (max-width: 550px) {
+  #carousel {
+    height: 250px;
+  }
+  #carousel .navigation {
+    bottom: 15%;
+  }
   #featured {
     padding: 0;
+    background: #fff;
   }
   #featured .main-content {
     margin: 0;
