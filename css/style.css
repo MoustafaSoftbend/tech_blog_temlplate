@@ -1275,9 +1275,10 @@ a.category {
   }
 
   #latest .post-card {
-    padding: 2.5rem 0;
+    padding: 1.5rem 0;
     margin: 0;
     border: none;
+    box-shadow: none;
   }
 
   #latest .post-card .post-card-content {
@@ -1464,10 +1465,17 @@ a.category {
   #topics {
     padding: 0;
   }
+  #topics .topics-grid {
+    padding: 0.5rem;
+  }
   /* 
   #topics .main-topic .topic-img-first {
     height: 10%;
   } */
+
+  #topics .topic-img-first {
+    height: 300px;
+  }
   #topics .side-topics {
     padding: 0.5rem;
   }
