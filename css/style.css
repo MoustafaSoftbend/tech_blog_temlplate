@@ -1131,7 +1131,7 @@ a.category {
     padding: 0;
   }
   #post-page .page-container .post-page .post-page-content p {
-    padding: 0;
+    padding: 0.5rem;
   }
   #post-page .post-page .post-page-title {
     font-size: 2rem;
