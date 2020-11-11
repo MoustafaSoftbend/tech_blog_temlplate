@@ -1123,6 +1123,7 @@ a.category {
   #navbar ul li {
     margin-right: 0;
   }
+
   #post-page .post-page-content {
     padding: 0;
   }
@@ -1130,7 +1131,7 @@ a.category {
     padding: 0;
   }
   #post-page .page-container .post-page .post-page-content p {
-    padding: 2rem;
+    padding: 1rem;
   }
   #post-page .post-page .post-page-title {
     font-size: 2rem;
