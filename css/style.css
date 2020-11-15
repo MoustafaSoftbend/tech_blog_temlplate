@@ -1125,7 +1125,7 @@ a.category {
   }
 
   #post-page .post-page-content {
-    padding: 0;
+    padding: 0 !important;
   }
   #post-page .page-container .post-page {
     padding: 0;
