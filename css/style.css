@@ -1218,7 +1218,12 @@ a.category {
     width: 100%;
   }
   #navbar ul {
-    display: none;
+    display: block;
+    background: #333;
+    position: absolute;
+    right: 0;
+    /* display: none; */
+    transform: translateX(100%);
   }
   #navbar .hamburger-menu {
     display: block;
@@ -1532,6 +1537,9 @@ a.category {
   display: grid;
   grid-template-columns: 1fr 2fr;
   background: #fff;
+}
+#post-page .post-page-content {
+  font-size: 0.8rem;
 }
 
 #post-page .side-content .recommended-img {

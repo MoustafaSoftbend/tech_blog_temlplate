@@ -1,5 +1,7 @@
 const height = parseInt(document.querySelector(".slide-img").offsetHeight);
 const slide = document.querySelector(".carousel-viewport");
+const hamburger = document.querySelector('.hamburger-menu');
+const nav_list = document.querySelector('.navbar-nav') 
 // const imagesLength = document.querySelectorAll(".slide-img").length;
 let imagesLength;
 const nav_btn = document.querySelector("a.navigation");
@@ -17,6 +19,15 @@ window.addEventListener("DOMContentLoaded", (e) => {
       navbar.style.background = "#000";
     }
   });
+  if (hamburger){
+    hamburger.addEventListener('click', function() {
+      hamburger.style.display = 'none'
+      li = document.createElement('li'),
+      nav_list.style.transition = "all 2s";
+      nav_list.style.transform = "translateX(-10%)";
+    })
+
+  }
 
   slide.addEventListener("mouseenter", function (e) {
     console.log("Halt");
