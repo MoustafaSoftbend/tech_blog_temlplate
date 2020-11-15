@@ -1541,6 +1541,9 @@ a.category {
 #post-page .post-page-content {
   font-size: 0.8rem;
 }
+#post-page .comment-text {
+  font-size: 1rem !important;
+}
 
 #post-page .side-content .recommended-img {
   /* padding: 1rem; */
