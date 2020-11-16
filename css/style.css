@@ -1123,7 +1123,9 @@ a.category {
   #navbar ul li {
     margin-right: 0;
   }
-
+  #post-page .main-content .post-page textarea {
+    /* width: 100%; */
+  }
   #post-page .post-page-content {
     padding: 0 !important;
   }
@@ -1131,7 +1133,7 @@ a.category {
     padding: 0;
   }
   #post-page .page-container .post-page .post-page-content p {
-    padding: 0.5rem;
+    padding: 1.3rem;
   }
   #post-page .post-page .post-page-title {
     font-size: 2rem;
@@ -1698,6 +1700,9 @@ a.category {
   text-align: center;
 }
 
+#post-page .conversations {
+  padding: 1rem;
+}
 #post-page .conversations h2 {
   padding: 1rem;
 }
@@ -1707,6 +1712,7 @@ a.category {
   font-size: 1.5rem;
   margin-left: 2rem;
   font-weight: bold;
+  /* padding: 2rem; */
   /* padding: 1rem; */
   /* width: 100%; */
 }
